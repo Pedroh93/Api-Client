@@ -1,4 +1,4 @@
-package Service.Exception;
+package Crud.api.services.exceptions;
 
 public class DataBaseException extends RuntimeException {
     public DataBaseException(String msg){

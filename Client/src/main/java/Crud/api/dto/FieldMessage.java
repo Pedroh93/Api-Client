@@ -1,4 +1,4 @@
-package dto;
+package Crud.api.dto;
 
 public class FieldMessage {
     private String fieldName;

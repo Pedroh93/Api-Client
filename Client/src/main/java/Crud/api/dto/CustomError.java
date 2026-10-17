@@ -1,4 +1,4 @@
-package dto;
+package Crud.api.dto;
 
 import java.time.Instant;
 

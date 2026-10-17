@@ -1,6 +1,6 @@
-package controllers;
+package Crud.api.controllers;
 import Crud.api.dto.ClientDto;
-import Service.ClientService;
+import Crud.api.services.ClientService;
 
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

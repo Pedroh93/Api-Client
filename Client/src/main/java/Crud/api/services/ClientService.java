@@ -1,15 +1,15 @@
-package Service;
+package Crud.api.services;
 import Crud.api.dto.ClientDto;
 import Crud.api.entities.Client;
-import Service.Exception.DataBaseException;
-import Service.Exception.ResourceNotFoundException;
+import Crud.api.repositories.ClientRepository;
+import Crud.api.services.exceptions.DataBaseException;
+import Crud.api.services.exceptions.ResourceNotFoundException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import repository.ClientRepository;
 import org.springframework.data.domain.Pageable;
 
 
